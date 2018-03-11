@@ -1,0 +1,6 @@
+mvn sonar:sonar \
+  -Dsonar.organization=uday707-github \
+  -Dsonar.host.url=https://sonarcloud.io \
+  -Dsonar.login=446fd2f7eb4763c9fda745d2bc69cac444f3589c
+  
+mvn -U clean install //Helps in cleaning the old & obsolete packages and reinstalling the new packages from repository.  
