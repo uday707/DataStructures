@@ -21,7 +21,5 @@ public class MaximumOfSubarrayOfSizeKTest {
 	   logger.info("Testing for positive values");
 	   int input[] = {8, 5, 10, 7, 9, 4, 15, 12, 90, 13};
 	   int max[] = msa.maxSubArray(input, 4);
-	   for(Integer i: max)
-	   System.out.println(i);
 	}
 }
