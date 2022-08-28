@@ -1,5 +1,6 @@
-package com.eric.ds.arrays;
+package org.eric.ds.arrays;
 
+import org.eric.ds.arrays.MaximumOfSubarrayOfSizeK;
 import org.junit.Before;
 import org.junit.Test;
 

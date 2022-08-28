@@ -2,12 +2,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.rbs.ds</groupId>
   <artifactId>DataStructures</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <name>Java Data Structures</name>
   <description>Creating the Reusable Data Structures using the Java language</description>
   
   <properties>
-    <log4jVersion>2.18.0</log4jVersion>
+    <log4j.version>2.18.0</log4j.version>
+    <junit4.version>4.13.2</junit4.version>
   </properties>
   
   <build>
@@ -46,29 +47,28 @@
   </build>
   
   <dependencies>
-    
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-slf4j-impl</artifactId>
-      <version>${log4jVersion}</version>
+      <version>${log4j.version}</version>
     </dependency>
   
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-api</artifactId>
-      <version>${log4jVersion}</version>
+      <version>${log4j.version}</version>
     </dependency>
   
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-core</artifactId>
-      <version>${log4jVersion}</version>
+      <version>${log4j.version}</version>
     </dependency>
     
     <dependency>
   	  <groupId>junit</groupId>
   	  <artifactId>junit</artifactId>
-  	  <version>4.11</version>
+  	  <version>${junit4.version}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>

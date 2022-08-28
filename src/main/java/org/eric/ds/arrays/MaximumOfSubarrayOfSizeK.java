@@ -1,4 +1,4 @@
-package com.eric.ds.arrays;
+package org.eric.ds.arrays;
 import java.util.Deque;
 import java.util.LinkedList;
 
