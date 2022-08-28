@@ -2,13 +2,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.rbs.ds</groupId>
   <artifactId>DataStructures</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0.1</version>
   <name>Java Data Structures</name>
   <description>Creating the Reusable Data Structures using the Java language</description>
+  
   <properties>
-    <slf4jVersion>1.6.1</slf4jVersion>
-    <log4jVersion>1.2.16</log4jVersion>
+    <log4jVersion>2.18.0</log4jVersion>
   </properties>
+  
   <build>
     <plugins>
       <plugin>
@@ -45,34 +46,23 @@
   </build>
   
   <dependencies>
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-      <version>${slf4jVersion}</version>
-    </dependency>
     
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-simple</artifactId>
-      <version>${slf4jVersion}</version>
-    </dependency>
-    
-  	<dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-log4j12</artifactId>
-      <version>${slf4jVersion}</version>
-    </dependency>
-    
-    <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-slf4j-impl</artifactId>
       <version>${log4jVersion}</version>
     </dependency>
   
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>jcl-over-slf4j</artifactId>
-      <version>${slf4jVersion}</version>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>${log4jVersion}</version>
+    </dependency>
+  
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>${log4jVersion}</version>
     </dependency>
     
     <dependency>
