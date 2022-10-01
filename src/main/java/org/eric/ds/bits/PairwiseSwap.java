@@ -1,6 +1,6 @@
 package org.eric.ds.bits;
 
-import org.eric.ds.util.AssortedMethods;
+import org.eric.ds.util.DSUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,9 +14,9 @@ public class PairwiseSwap {
 	
 	public static void main(String[] args) {
 		int a = 234231;
-		logger.info("a = {}", AssortedMethods.toFullBinaryString(a));
+		logger.info("a = {}", DSUtils.toFullBinaryString(a));
 		int b = swapOddEvenBits(a);
-		logger.info("b = {}", AssortedMethods.toFullBinaryString(b));
+		logger.info("b = {}", DSUtils.toFullBinaryString(b));
 	}
 
 }
